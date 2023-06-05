@@ -326,3 +326,62 @@ svg {
 .button:hover {
   box-shadow: 0 9px 24px hsla(var(-hue), 100%, 40%, .25);
 }
+
+/*=============== ABOUT ===============*/
+
+.about__container {
+  row-gap: 2.5rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: 2rem
+}
+
+.about__image {
+  justify-self: center;
+}
+
+.about__blob {
+  width: 320px;
+}
+
+.about__blob path {
+  stroke: var(--first-color);
+}
+
+/*=============== SKILLS ===============*/
+
+
+/*=============== SERVICES ===============*/
+
+
+/*=============== PROJECTS ===============*/
+
+
+/*=============== CONTACT ===============*/
+
+
+/*=============== FOOTER ===============*/
+
+
+/*=============== SCROLL BAR ===============*/
+
+
+/*=============== SCROLL UP ===============*/
+
+
+/* Show Scroll Up */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
