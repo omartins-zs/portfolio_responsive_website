@@ -310,3 +310,19 @@ svg {
   fill: var(--first-color);
   filter: drop-shadow(0 12px 12px hsla(var(-—hue), 100%, 40%, .2))
 }
+
+/*=============== BUTTON ===============*/
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: box-shadow .4s;
+}
+
+.button:hover {
+  box-shadow: 0 9px 24px hsla(var(-hue), 100%, 40%, .25);
+}
