@@ -480,10 +480,11 @@ svg {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg,
-            hsla(0, 0%, 0%, 0) 0%,
-              hsla(var(--hue), 70%, 40%, .8)120%);
+      hsla(0, 0%, 0%, 0) 0%,
+      hsla(var(--hue), 70%, 40%, .8)120%);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px)/* For Safari */
+  -webkit-backdrop-filter: blur(4px)
+    /* For Safari */
   ;
   border-radius: 1rem;
   display: flex;
@@ -527,7 +528,50 @@ svg {
 
 
 /*=============== CONTACT ===============*/
+.contact__container {
+  padding-top: 1rem;
 
+}
+
+.contact__form,
+.contact__group {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.contact__form {
+  position: relative;
+}
+
+.contact__input {
+  padding: 1rem 1.25rem;
+  border-radius: .5rem;
+  background-color: var(--container-color);
+  color: var(--title-color);
+}
+
+.contact__input::placeholder {
+  color: var(--text-color);
+}
+
+.contact__form textarea {
+  height: 1rem;
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.contact__button {
+  justify-self: center;
+  cursor: pointer;
+}
+
+.contact__message {
+  position: absolute;
+  left: 0;
+  bottom: 4.5rem;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
 
 /*=============== FOOTER ===============*/
 
