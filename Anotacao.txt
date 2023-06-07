@@ -3,3 +3,13 @@
 https://github.com/Remix-Design/RemixIcon
 
 https://fonts.google.com/specimen/Poppins
+
+
+📂Assets 
+Icons: https://remixicon.com/
+Fonts: https://fonts.google.com/
+JS Functions: https://github.com/bedimcode/responsi...
+Dopely colors: https://colors.dopely.top/color-pedia
+EmailJs: https://www.emailjs.com/
+ScrollReveal: https://scrollrevealjs.org/
+Netlify: https://www.netlify.com/
