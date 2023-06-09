@@ -603,7 +603,7 @@ svg {
 
 .footer__social-link {
   display: flex;
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
   padding: .5rem;
   color: var(--title-color);
   font-size: 1.5rem;
