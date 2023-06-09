@@ -47,8 +47,14 @@ const sendEmail = (e) => {
 
   // serviceID - templateID - #form - publicKey
   emailjs
-    .sendForm("service_r3u4y2f", "template_vciswvf", "#contact-form", "jBNqd1Z5BKnYVRCHO")
-    .then(() => {
+    .sendForm(
+      "service_r3u4y2f",
+      "template_vciswvf",
+      "#contact-form",
+      "jBNqd1Z5BKnYVRCHO"
+    )
+    .then(
+      () => {
         contactMessage.textContent = "Mensagem enviada com Sucesso ✅";
 
         // Remove message after five seconds
@@ -58,7 +64,8 @@ const sendEmail = (e) => {
 
         // Clear input fields
         contactForm.reset();
-      }, () => {
+      },
+      () => {
         // Show error Message
         contactMessage.textContent = "Mensagem não enviada (Service Error) ❌";
       }
@@ -67,6 +74,13 @@ const sendEmail = (e) => {
 contactForm.addEventListener("submit", sendEmail);
 
 /*=============== SHOW SCROLL UP ===============*/
+const scrollUp = () =>{
+    const scrollUp = document.getElementById('scroll-up')
+    // when the scroll is higher than 350 viewport height , add the show-scroll class to the taf with the scrollup
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
+                        : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
