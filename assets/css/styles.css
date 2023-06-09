@@ -530,10 +530,7 @@ svg {
 
 
 /*=============== CONTACT ===============*/
-.contact__container {
-  padding-top: 1rem;
 
-}
 
 .contact__form,
 .contact__group {
@@ -556,11 +553,6 @@ svg {
   color: var(--text-color);
 }
 
-.contact__form textarea {
-  height: 1rem;
-  resize: none;
-  margin-bottom: 2rem;
-}
 
 .contact__button {
   justify-self: center;
@@ -668,7 +660,20 @@ svg {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
 
+  .skills__content {
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+  }
+
+  .services__card {
+    padding-block: 1.5rem;
+  }
+}
 
 /* For medium devices */
 
