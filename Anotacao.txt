@@ -5,6 +5,8 @@ https://github.com/Remix-Design/RemixIcon
 https://fonts.google.com/specimen/Poppins
 
 
+Add link do video tutorial: https://www.youtube.com/watch?v=Y4-xMb-eHOQ&t=4233s&ab_channel=Bedimcode
+
 📂Assets 
 Icons: https://remixicon.com/
 Fonts: https://fonts.google.com/
