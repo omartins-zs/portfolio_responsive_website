@@ -425,7 +425,6 @@ svg {
 .services__container {
   row-gap: 2rem;
   padding-block: 1rem;
-
 }
 
 .services__card {
@@ -435,6 +434,10 @@ svg {
   border-radius: 1rem;
   border: 2px solid var(--container-color);
   transition: border .4s
+}
+
+.services__description {
+  text-align: center; /* justify */
 }
 
 .services__icon {
@@ -839,7 +842,7 @@ svg {
   }
 
   .projects__container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 420px);
     row-gap: 3rem;
     padding-block: 2.5rem 4rem;
   }
